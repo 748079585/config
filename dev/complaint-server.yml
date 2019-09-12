@@ -12,11 +12,11 @@ spring:
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: admin
-    password: admin
+#   rabbitmq:
+#     host: localhost
+#     port: 5672
+#     username: admin
+#     password: admin
   servlet:
     multipart:
       enabled: true
