@@ -12,7 +12,7 @@ spring:
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
-  rabbitmq:    					        #本地环境不需要配置mq
+  rabbitmq:
     host: localhost
     port: 5672
     username: admin
