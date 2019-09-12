@@ -28,12 +28,6 @@ spring:
   mvc:
     # 映射路径
     static-path-pattern: /picture/**
-management:
-  endpoints:
-    web:
-      exposure:
-        # 加载所有的端点,   /默认下只加载了 info / health
-        include: "*"
 #   图片保存的根路径
 complaint:
   picture:
